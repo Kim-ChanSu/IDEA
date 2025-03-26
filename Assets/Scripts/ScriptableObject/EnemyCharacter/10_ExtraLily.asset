@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e89aab0befb9347af8106420b3ea8f, type: 3}
+  m_Name: 10_ExtraLily
+  m_EditorClassIdentifier: 
+  enemyStatus:
+    name: Lily
+    inGameName: "\uB9B4\uB9AC"
+    face:
+    - {fileID: 21300000, guid: 4aeaf9b8358f4e94e812dd165236bb5c, type: 3}
+    inGameCharacter: {fileID: 21300000, guid: e4b9193515eadc9419a6943ca271f578, type: 3}
+    characterAnimation: {fileID: 4636434003973194, guid: b7bcd282f8106714db45df196efe7d67, type: 3}
+    sympathyType: 0
+    voice: 0
+    characterInformation:
+      characterIllustration: {fileID: 21300000, guid: 4ffefe9b12ce55946887966284b965d0, type: 3}
+      characterExplain: "\uC720\uC18C\uB144 \uC120\uC218\uC774\uB2E4."
+      characterAge: 14
+      characterBirthMonth: 4
+      characterBirthDay: 4
+      characterHeight: 145
+      characterWeight: 42
+    aiType: 0
+    level: 1
+    maxEXP: 0
+    EXP: 0
+    maxHP: 100
+    HP: 100
+    maxMP: 190
+    MP: 190
+    maxSympathy: 100
+    Sympathy: 0
+    ATK: 13
+    MAK: 27
+    DEF: 17
+    MDF: 18
+    move: 5
+    range: 4
+    attackSkillNum: 0
+    firstCharacterSkillNum: 0400000005000000060000001f000000200000002100000010000000
+    characterSkill: 000000000101010100000101010000000000000000000101000100000100000000000000000000000000
+    HPValue: 0
+    MPValue: 0
+    ATKValue: 0
+    MAKValue: 0
+    DEFValue: 0
+    MDFValue: 0
+    maxHPEXP: 0
+    maxMPEXP: 0
+    ATKEXP: 0
+    MAKEXP: 0
+    DEFEXP: 0
+    MDFEXP: 0
+    increaseMaxHPByTrain: 0
+    increaseMaxMPByTrain: 0
+    increaseATKByTrain: 0
+    increaseMAKByTrain: 0
+    increaseDEFByTrain: 0
+    increaseMDFByTrain: 0
+    trainStatus: 0

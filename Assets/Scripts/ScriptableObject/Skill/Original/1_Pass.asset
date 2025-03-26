@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 1_Pass
+  m_EditorClassIdentifier: 
+  skillName: Pass
+  ingameSkillName: "\uD328\uC2A4"
+  skillSprite: {fileID: 0}
+  skillExplain: 
+  skillTarget: 1
+  skillType: 1
+  damageType: 0
+  skillSympathyType: 0
+  skillUserEffect: 0
+  skillTargetEffect: 0
+  ignoreIsHaveBall: 0
+  ignoreOtherCharacter: 0
+  ignoreBound: 1
+  useHP: 0
+  useMP: 0
+  useSympathy: 0
+  skillUserStatusEffect: []
+  targetStatusEffect: []
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0

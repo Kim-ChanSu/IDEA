@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28a0969de0b20d4a87cb49d8031c292, type: 3}
+  m_Name: 12_Encourage
+  m_EditorClassIdentifier: 
+  inGameName: "\uACA9\uB824"
+  statusEffectIcon: {fileID: 21300000, guid: 237faa36c001de240973b926672f67f7, type: 3}
+  statusEffectExplain: "\uACF5\uACA9\uB825\uC774 15% \uC99D\uAC00\uD55C\uB2E4."
+  isDead: 0
+  isCantMove: 0
+  isCantUseSkill: 0
+  isNotTurnCount: 0
+  continueTurn: 6
+  ATKChange: 1.15
+  MAKChange: 0
+  DEFChange: 0
+  MDFChange: 0
+  moveChange: 0
+  rangeChange: 0
+  turnDamage: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 36_Silent
+  m_EditorClassIdentifier: 
+  skillName: Silent
+  ingameSkillName: "\uC0AC\uC77C\uB7F0\uD2B8"
+  skillSprite: {fileID: 21300000, guid: b5449aa11108bff45bfe98322f42c097, type: 3}
+  skillExplain: "80%\uC758 \uD655\uB960\uB85C 2\uD134 \uAC04 \uC801\uC744 \uC2A4\uD0AC
+    \uC0AC\uC6A9\uBD88\uAC00 \uC0C1\uD0DC\uB85C \uB9CC\uB4E0\uB2E4."
+  skillTarget: 0
+  skillType: 0
+  damageType: 0
+  skillSympathyType: 2
+  skillUserEffect: 3
+  skillTargetEffect: 26
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 20
+  useSympathy: 10
+  skillUserStatusEffect: []
+  targetStatusEffect:
+  - statusEffect: {fileID: 11400000, guid: 3592e8a31cec9044fa1bc3c341c7fe0a, type: 2}
+    statusEffectPercentage: 80
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0

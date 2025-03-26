@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 17_ThunderShot
+  m_EditorClassIdentifier: 
+  skillName: Thunder Shot
+  ingameSkillName: "\uC36C\uB354 \uC0F7"
+  skillSprite: {fileID: 21300000, guid: 46f6d98d26c45d049b56072e5ea863f7, type: 3}
+  skillExplain: "\uC790\uC2E0\uC758 \uB9C8\uBC95\uB825\uC5D0 \uBE44\uB840\uC5D0\uC11C
+    \uD53C\uD574\uB97C \uC785\uD78C\uB2E4."
+  skillTarget: 0
+  skillType: 0
+  damageType: 0
+  skillSympathyType: 3
+  skillUserEffect: 3
+  skillTargetEffect: 14
+  ignoreIsHaveBall: 0
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 15
+  useSympathy: 5
+  skillUserStatusEffect: []
+  targetStatusEffect: []
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 2.75
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 1
+  variance: 0.3
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0

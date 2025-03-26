@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 5_Flow
+  m_EditorClassIdentifier: 
+  skillName: Flow
+  ingameSkillName: "\uD750\uB984\uD0C0\uAE30"
+  skillSprite: {fileID: 21300000, guid: fbe0e872ed156994894aa9a0146c3419, type: 3}
+  skillExplain: "\uC790\uC2E0\uC758 SP\uB97C 20\uB9CC\uD07C \uC0C1\uC2B9\uC2DC\uD0A8\uB2E4."
+  skillTarget: 2
+  skillType: 1
+  damageType: 0
+  skillSympathyType: 0
+  skillUserEffect: 4
+  skillTargetEffect: 0
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 0
+  useSympathy: 0
+  skillUserStatusEffect: []
+  targetStatusEffect: []
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: -20
+  specialCount: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28a0969de0b20d4a87cb49d8031c292, type: 3}
+  m_Name: 8_DispassionateOpinion
+  m_EditorClassIdentifier: 
+  inGameName: "\uB0C9\uCCA0\uD55C \uD310\uB2E8"
+  statusEffectIcon: {fileID: 21300000, guid: e0df39814c016564f8a0782dd4a09e0b, type: 3}
+  statusEffectExplain: "\uBC29\uC5B4\uB825\uACFC \uC800\uD56D\uB825\uC774 15% \uC99D\uAC00\uD55C\uB2E4."
+  isDead: 0
+  isCantMove: 0
+  isCantUseSkill: 0
+  isNotTurnCount: 0
+  continueTurn: 6
+  ATKChange: 0
+  MAKChange: 0
+  DEFChange: 1.15
+  MDFChange: 1.15
+  moveChange: 0
+  rangeChange: 0
+  turnDamage: 0

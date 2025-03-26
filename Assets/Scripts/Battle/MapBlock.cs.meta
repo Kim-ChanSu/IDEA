@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6416701fcab72ec4ebe982e16a248895
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - selMat_Select: {fileID: 2100000, guid: 7ab3329199214284f8abc0f9c5ccd9a0, type: 2}
+  - selMat_Reachable: {instanceID: 0}
+  - selMat_Attackable: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

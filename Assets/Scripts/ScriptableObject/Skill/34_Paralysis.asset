@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 34_Paralysis
+  m_EditorClassIdentifier: 
+  skillName: Paralysis
+  ingameSkillName: "\uD398\uB7F4\uB77C\uC774\uC988"
+  skillSprite: {fileID: 21300000, guid: f0655a134f32ed34ead827682fee1776, type: 3}
+  skillExplain: "75%\uC758 \uD655\uB960\uB85C 1\uD134 \uAC04 \uC801\uC744 \uD589\uB3D9\uBD88\uAC00
+    \uC0C1\uD0DC\uB85C \uB9CC\uB4E0\uB2E4."
+  skillTarget: 0
+  skillType: 0
+  damageType: 0
+  skillSympathyType: 1
+  skillUserEffect: 3
+  skillTargetEffect: 24
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 10
+  useSympathy: 20
+  skillUserStatusEffect: []
+  targetStatusEffect:
+  - statusEffect: {fileID: 11400000, guid: 2473cdc19143a004d82e18e87218ad48, type: 2}
+    statusEffectPercentage: 75
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0

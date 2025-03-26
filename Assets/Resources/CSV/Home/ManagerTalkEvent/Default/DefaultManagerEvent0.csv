@@ -1,0 +1,4 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,무슨 일이야?,,
+0,Manager,RemoveTalker,1,,

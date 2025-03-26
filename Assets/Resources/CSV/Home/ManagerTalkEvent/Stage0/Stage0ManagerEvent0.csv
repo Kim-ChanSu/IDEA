@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,경기준비 버튼을 클릭하여 다음 스테이지로 진행할 수 있어.,,
+0,Manager,,부잣집 아가씨에게 프로는 만만하지 않다는 걸 보여주러 가자!,,
+0,Manager,RemoveTalker,1,,

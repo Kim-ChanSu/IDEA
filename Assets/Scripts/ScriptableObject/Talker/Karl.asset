@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b237c3ef6891f7a4b89710798dadf43f, type: 3}
+  m_Name: Karl
+  m_EditorClassIdentifier: 
+  callName: Karl
+  inGameName: "\uCE74\uB97C"
+  characterImage:
+  - {fileID: 21300000, guid: 3636873d9d19adb409c50ea100fce533, type: 3}
+  - {fileID: 21300000, guid: 976e586b46d0d2d4ca42daecfc9fe38a, type: 3}
+  - {fileID: 21300000, guid: 5fe40423ad60fcc4d86fc35ffe4d5d7c, type: 3}
+  - {fileID: 21300000, guid: f2193ce085a72e94d97a4cf29517a969, type: 3}
+  talkSpeed: 0.04

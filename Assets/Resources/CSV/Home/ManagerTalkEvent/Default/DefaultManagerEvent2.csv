@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,옛날에는 인류가 마법을 사용하지 못했다고 하던데,,
+0,Manager,,그 시절 인류는 무슨 마음으로 살아갔을까?,,
+0,Manager,RemoveTalker,1,,

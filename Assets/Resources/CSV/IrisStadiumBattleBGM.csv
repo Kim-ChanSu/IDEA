@@ -1,0 +1,3 @@
+Branch,Talker,Event,Content,Key,Part
+0,,ChangeBGM,Battle3,,
+0,,GoNextBattleScene,,,end

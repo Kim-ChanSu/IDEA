@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e89aab0befb9347af8106420b3ea8f, type: 3}
+  m_Name: 4_ExtraRuby
+  m_EditorClassIdentifier: 
+  enemyStatus:
+    name: Ruby
+    inGameName: "\uB8E8\uBE44"
+    face:
+    - {fileID: 21300000, guid: 4aeaf9b8358f4e94e812dd165236bb5c, type: 3}
+    inGameCharacter: {fileID: 21300000, guid: 87f3b25a55e00014784ab319b1fa3b3c, type: 3}
+    characterAnimation: {fileID: 1125148264303045160, guid: e7935859856415a40a15790f62dca791, type: 3}
+    sympathyType: 0
+    voice: 0
+    characterInformation:
+      characterIllustration: {fileID: 21300000, guid: 4ffefe9b12ce55946887966284b965d0, type: 3}
+      characterExplain: "\uBE60\uB978 \uBC1C\uC774 \uD2B9\uAE30\uC778 \uC120\uC218\uC774\uB2E4."
+      characterAge: 25
+      characterBirthMonth: 12
+      characterBirthDay: 3
+      characterHeight: 151
+      characterWeight: 43
+    aiType: 0
+    level: 4
+    maxEXP: 0
+    EXP: 0
+    maxHP: 135
+    HP: 135
+    maxMP: 170
+    MP: 170
+    maxSympathy: 100
+    Sympathy: 0
+    ATK: 37
+    MAK: 32
+    DEF: 12
+    MDF: 11
+    move: 6
+    range: 4
+    attackSkillNum: 0
+    firstCharacterSkillNum: 0400000005000000070000000800000010000000
+    characterSkill: 000000000101000101000000000000000100000000000000000000000000000000000000000000000000
+    HPValue: 0
+    MPValue: 0
+    ATKValue: 0
+    MAKValue: 0
+    DEFValue: 0
+    MDFValue: 0
+    increaseMaxHPByTrain: 0
+    increaseMaxMPByTrain: 0
+    increaseATKByTrain: 0
+    increaseMAKByTrain: 0
+    increaseDEFByTrain: 0
+    increaseMDFByTrain: 0

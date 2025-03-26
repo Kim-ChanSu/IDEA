@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911124f05b34c8847b7af78802f51b7b, type: 3}
+  m_Name: 1_Stage2
+  m_EditorClassIdentifier: 
+  stageName: "\uCE5C\uC120\uACBD\uAE30"
+  stageExplain: "\uB9AC\uADF8 \uC77C\uC815\uC744 \uC18C\uD654\uD558\uAE30 \uC804\uC5D0
+    \uD300\uC758 \uC804\uB825\uC744 \uD655\uC778\uD558\uACE0\uC790 \uD558\uBD80\uB9AC\uADF8\uC758
+    \uD300\uD558\uACE0 \uCE5C\uC120\uACBD\uAE30\uB97C \uC7A1\uC558\uB2E4. \uD558\uBD80\uB9AC\uADF8
+    \uD300\uACFC \uACBD\uAE30\uB97C \uD558\uC5EC \uD300\uC758 \uC804\uB825\uC744
+    \uD30C\uC545\uD558\uC790."
+  stageWinCondition: "1. \uC544\uAD70 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC0DD\uC874\n2.
+    \uC801 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC544\uC6C3\n3. 3\uD134\uB3D9\uC548
+    \uC544\uAD70 \uC804\uC6D0 \uC0DD\uC874\n4. 4\uD134\uB3D9\uC548 \uC544\uAD70 \uC804\uC6D0
+    \uC0DD\uC874"
+  enemyTeamName: "\uD398\uB974\uB09C\uB4DC"
+  stageUseHealth: 25
+  D_day: 7
+  stageNeedMainStageNum: 0
+  stageCSVName: Stage2
+  stageCSVPart: start
+  stageBattleSceneName: BattleScene
+  stageEndCSVName: Stage2
+  stageEndCSPart: battleEnd
+  playerCharacterCount: 5
+  enemyCharacterNum: 0200000003000000040000000500000006000000
+  clearEXP: 390
+  clearGold: 2500

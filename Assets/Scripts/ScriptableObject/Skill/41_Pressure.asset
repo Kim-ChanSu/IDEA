@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 41_Pressure
+  m_EditorClassIdentifier: 
+  skillName: Pressure
+  ingameSkillName: "\uC704\uC555"
+  skillSprite: {fileID: 21300000, guid: 5ddf7da91b032894c8736dfa6f503c3b, type: 3}
+  skillExplain: "\uACF5\uACA9 \uBC94\uC704 \uC548 \uC801\uB4E4\uC5D0\uAC8C 2\uD134\uAC04
+    \uC0AC\uAC70\uB9AC\uB97C \uAC10\uC18C\uC2DC\uD0A4\uB294 \uB514\uBC84\uD504\uB97C
+    \uAC74\uB2E4.\r \uC790\uC2E0\uC758 \uC8FC\uC704 1\uCE78\uC774\uB0B4\uC5D0 \uB9C8\uB9B4\uB9B0\uC774
+    \uC788\uC744\uACBD\uC6B0 \uB300\uC0C1\uC774 \uC801 \uC804\uCCB4\uB85C \uD655\uC7A5\uB41C\uB2E4.\r"
+  skillTarget: 2
+  skillType: 7
+  damageType: 0
+  skillSympathyType: 1
+  skillUserEffect: 23
+  skillTargetEffect: 18
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 20
+  useSympathy: 20
+  skillUserStatusEffect: []
+  targetStatusEffect:
+  - statusEffect: {fileID: 11400000, guid: 47e509fd84a2af74d84cf98b3d64e914, type: 2}
+    statusEffectPercentage: 0
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 1

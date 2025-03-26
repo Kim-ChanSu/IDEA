@@ -1,0 +1,4 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,오늘처럼 평온한 나날들이 이어지면 좋을텐데..,,
+0,Manager,RemoveTalker,1,,

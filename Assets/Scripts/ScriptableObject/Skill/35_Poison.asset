@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 35_Poison
+  m_EditorClassIdentifier: 
+  skillName: Poison
+  ingameSkillName: "\uD3EC\uC774\uC98C"
+  skillSprite: {fileID: 21300000, guid: 59dbe1667eeb45c46bd68a987c255ab8, type: 3}
+  skillExplain: "90%\uC758 \uD655\uB960\uB85C 3\uD134 \uAC04 \uC801\uC744 \uCD5C\uB300\uCCB4\uB825\uC758
+    1/8\uD53C\uD574\uB97C \uC785\uB294 \uB3C5 \uC0C1\uD0DC\uB85C \uB9CC\uB4E0\uB2E4."
+  skillTarget: 0
+  skillType: 0
+  damageType: 0
+  skillSympathyType: 3
+  skillUserEffect: 3
+  skillTargetEffect: 25
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 15
+  useSympathy: 15
+  skillUserStatusEffect: []
+  targetStatusEffect:
+  - statusEffect: {fileID: 11400000, guid: 41cba5793f8c3ed4287c43cc4c287825, type: 2}
+    statusEffectPercentage: 90
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0

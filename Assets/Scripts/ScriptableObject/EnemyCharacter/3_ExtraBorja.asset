@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e89aab0befb9347af8106420b3ea8f, type: 3}
+  m_Name: 3_ExtraBorja
+  m_EditorClassIdentifier: 
+  enemyStatus:
+    name: Borja
+    inGameName: "\uBCF4\uB974\uD558"
+    face:
+    - {fileID: 21300000, guid: 4aeaf9b8358f4e94e812dd165236bb5c, type: 3}
+    inGameCharacter: {fileID: 21300000, guid: 87f3b25a55e00014784ab319b1fa3b3c, type: 3}
+    characterAnimation: {fileID: 1125148264303045160, guid: e7935859856415a40a15790f62dca791, type: 3}
+    sympathyType: 0
+    voice: 1
+    characterInformation:
+      characterIllustration: {fileID: 21300000, guid: 4ffefe9b12ce55946887966284b965d0, type: 3}
+      characterExplain: "\uD558\uBD80\uB9AC\uADF8\uC5D0\uC11C \uC790\uB9AC\uC7A1\uC740
+        \uC120\uC218\uC774\uB2E4."
+      characterAge: 27
+      characterBirthMonth: 8
+      characterBirthDay: 20
+      characterHeight: 183
+      characterWeight: 76
+    aiType: 0
+    level: 3
+    maxEXP: 0
+    EXP: 0
+    maxHP: 160
+    HP: 160
+    maxMP: 145
+    MP: 145
+    maxSympathy: 100
+    Sympathy: 0
+    ATK: 23
+    MAK: 23
+    DEF: 18
+    MDF: 21
+    move: 4
+    range: 5
+    attackSkillNum: 0
+    firstCharacterSkillNum: 04000000050000000e00000012000000170000001a0000001b0000001d0000001e000000
+    characterSkill: 000000000101000000000000000001000000010000000001000001010001010000000000000000000000
+    HPValue: 0
+    MPValue: 0
+    ATKValue: 0
+    MAKValue: 0
+    DEFValue: 0
+    MDFValue: 0
+    increaseMaxHPByTrain: 0
+    increaseMaxMPByTrain: 0
+    increaseATKByTrain: 0
+    increaseMAKByTrain: 0
+    increaseDEFByTrain: 0
+    increaseMDFByTrain: 0

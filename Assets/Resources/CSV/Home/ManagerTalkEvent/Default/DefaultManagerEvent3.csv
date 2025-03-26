@@ -1,0 +1,7 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,옛날 옛적 마법을 처음 발견했던 학자는#위인일까 아니면 악인일까?,,
+0,Manager,,마법으로 인하여 우리들의 삶이 편리해진 것은 맞지만,,
+0,Manager,,마법의 발견으로 인해서 세계는 혼란에 빠졌고,,
+0,Manager,,새로운 질서가 정립되기 전까지#수 많은 사람들이 마법으로 인해 희생 되었으니까..,,
+0,Manager,RemoveTalker,1,,

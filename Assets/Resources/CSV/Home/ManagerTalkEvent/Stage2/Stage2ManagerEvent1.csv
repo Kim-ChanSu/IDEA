@@ -1,0 +1,6 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,그러고 보니 연습경기는 진행하고 있어?,,
+0,Manager,,경기가 없는 날에 경기 준비 버튼을 누르면 연습경기등을 진행 할 수 있어.,,
+0,Manager,,다가오는 시엘 크로노전을 위한 연습경기도 세팅해 뒀으니 한 번 확인해봐.,,
+0,Manager,RemoveTalker,1,,

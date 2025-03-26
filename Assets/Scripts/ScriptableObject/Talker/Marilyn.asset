@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b237c3ef6891f7a4b89710798dadf43f, type: 3}
+  m_Name: Marilyn
+  m_EditorClassIdentifier: 
+  callName: Marilyn
+  inGameName: "\uB9C8\uB9B4\uB9B0"
+  characterImage:
+  - {fileID: 21300000, guid: 685d8ae9cc397274681909c40a174011, type: 3}
+  - {fileID: 21300000, guid: b5fd0821961129345984cd417f5a1d2e, type: 3}
+  - {fileID: 21300000, guid: 7ff559b406ca00d42a7345f7fd472004, type: 3}
+  - {fileID: 21300000, guid: bde84ad93d2092f4c9ce3dfc6a6853e4, type: 3}
+  - {fileID: 21300000, guid: b74827f249fa3a5408d3c04b3be57fc8, type: 3}
+  - {fileID: 21300000, guid: e33d138cecd807341911328e2fdba279, type: 3}
+  talkSpeed: 0.06

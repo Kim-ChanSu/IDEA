@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 28_DispassionateCommand
+  m_EditorClassIdentifier: 
+  skillName: Dispassionate Command
+  ingameSkillName: "\uB0C9\uCCA0\uD55C \uC9C0\uD718"
+  skillSprite: {fileID: 21300000, guid: ad6d1a2d2b9c6f749bbe02bd383413c5, type: 3}
+  skillExplain: "6\uD134 \uAC04 \uC544\uAD70\uC758 \uBC29\uC5B4\uB825\uACFC \uC800\uD56D\uB825\uC744
+    10% \uC99D\uAC00\uC2DC\uD0A8\uB2E4."
+  skillTarget: 1
+  skillType: 0
+  damageType: 0
+  skillSympathyType: 1
+  skillUserEffect: 3
+  skillTargetEffect: 17
+  ignoreIsHaveBall: 1
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 10
+  useSympathy: 15
+  skillUserStatusEffect: []
+  targetStatusEffect:
+  - statusEffect: {fileID: 11400000, guid: 616456776736cc14aa0695f0b1979694, type: 2}
+    statusEffectPercentage: 100
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 0
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 0
+  variance: 0
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28a0969de0b20d4a87cb49d8031c292, type: 3}
+  m_Name: 17_SystemSilent
+  m_EditorClassIdentifier: 
+  inGameName: "\uCE68\uBB35(\uAC15\uC81C)"
+  statusEffectIcon: {fileID: 0}
+  statusEffectExplain: 
+  isDead: 0
+  isCantMove: 0
+  isCantUseSkill: 1
+  isNotTurnCount: 1
+  continueTurn: 999
+  ATKChange: 0
+  MAKChange: 0
+  DEFChange: 0
+  MDFChange: 0
+  moveChange: 0
+  rangeChange: 0
+  turnDamage: 0

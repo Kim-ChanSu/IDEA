@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,우리들은 분명 다시 날아오를 수 있을거야..,,
+0,Manager,,나는 그날이 반드시 올 거라고 믿고 있어.,,
+0,Manager,RemoveTalker,1,,

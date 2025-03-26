@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911124f05b34c8847b7af78802f51b7b, type: 3}
+  m_Name: 0_Tutorial
+  m_EditorClassIdentifier: 
+  stageName: "\uC785\uB2E8\uD14C\uC2A4\uD2B8"
+  stageExplain: "\uB9C8\uB9B4\uB9B0\uACFC \uB9C8\uB974\uC820\uC758 \uC785\uB2E8 \uD14C\uC2A4\uD2B8\uB97C
+    \uBCF4\uC790."
+  stageWinCondition: "1. \uC544\uAD70 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC0DD\uC874\n2.
+    \uC801 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC544\uC6C3"
+  enemyTeamName: "\uBB34\uC18C\uC18D"
+  stageUseHealth: 25
+  D_day: 3
+  stageNeedMainStageNum: 0
+  stageCSVName: Prologue
+  stageCSVPart: part2
+  stageBattleSceneName: BattleScene
+  stageEndCSVName: Prologue
+  stageEndCSPart: part3
+  playerCharacterCount: 2
+  enemyCharacterNum: 0000000001000000
+  clearEXP: 120
+  clearGold: 1000

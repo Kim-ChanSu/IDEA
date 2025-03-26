@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,하단에 있는 책을 클릭하는 걸로도 선수들의 능력치와 정보를 확인 할 수 있어.,,
+0,Manager,,선수들에게 흥미가 있다면 한번 확인해봐.,,
+0,Manager,RemoveTalker,1,,

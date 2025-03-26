@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911124f05b34c8847b7af78802f51b7b, type: 3}
+  m_Name: 0_SubStage
+  m_EditorClassIdentifier: 
+  stageName: "\uC720\uC18C\uB144\uACFC \uC5F0\uC2B5\uACBD\uAE30"
+  stageExplain: "\uD300\uC758 \uC720\uC18C\uB144\uB4E4\uACFC\uC758 \uC5F0\uC2B5\uACBD\uAE30\uB97C
+    \uD55C\uB2E4."
+  stageWinCondition: "1. \uC544\uAD70 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC0DD\uC874\n2.
+    \uC801 \uB9AC\uB354 \uCE90\uB9AD\uD130\uC758 \uC544\uC6C3"
+  enemyTeamName: "\uB808\uC774\uBE10 2\uAD70"
+  stageUseHealth: 25
+  D_day: 0
+  stageNeedMainStageNum: 1
+  stageCSVName: BattleBGM
+  stageCSVPart: 
+  stageBattleSceneName: BattleScene
+  stageEndCSVName: 
+  stageEndCSPart: 
+  playerCharacterCount: 5
+  enemyCharacterNum: 0700000008000000090000000a0000000b000000
+  clearEXP: 80
+  clearGold: 500

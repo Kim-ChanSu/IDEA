@@ -1,0 +1,6 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,리그 개막전이 다가오고 있네..,,
+0,Manager,,나는 이 팀의 잠재력을 믿고 있어!,,
+0,Manager,,우리들은 분명 부활할 수 있을 거야.,,
+0,Manager,RemoveTalker,1,,

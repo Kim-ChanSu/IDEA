@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,ESC키를 누르면 메뉴를 열 수 있어.,,
+0,Manager,,메뉴도 중요해!,,
+0,Manager,RemoveTalker,1,,

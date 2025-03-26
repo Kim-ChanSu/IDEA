@@ -1,0 +1,5 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,나를 클릭하면 간단한 이야기를 들을 수 있어.,,
+0,Manager,,그런데 지금 이 대화를 보고 있다면 이미 알고 있는 기능이 아닐까?,,
+0,Manager,RemoveTalker,1,,

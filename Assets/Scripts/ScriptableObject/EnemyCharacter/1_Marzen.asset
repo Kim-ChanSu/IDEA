@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e89aab0befb9347af8106420b3ea8f, type: 3}
+  m_Name: 1_Marzen
+  m_EditorClassIdentifier: 
+  enemyStatus:
+    name: Marzen
+    inGameName: "\uB9C8\uB974\uC820"
+    face:
+    - {fileID: 21300000, guid: 0b42c7917380bf2429e837c49f213fc1, type: 3}
+    - {fileID: 21300000, guid: 9fb3def3dbcbad84cade9a70ab6eb306, type: 3}
+    - {fileID: 21300000, guid: 26280a347e3769946963361d73c7bf71, type: 3}
+    - {fileID: 21300000, guid: a25f0ccdb68c3e043a6c19c9b59d54f9, type: 3}
+    inGameCharacter: {fileID: 21300000, guid: 221b49082dfa32744b2a2b9a5fbc94db, type: 3}
+    characterAnimation: {fileID: 1770706512054837712, guid: 54fc69132a622394b9cefcccbc6c96c5, type: 3}
+    sympathyType: 5
+    characterNatureType: 5
+    voice: 1
+    characterInformation:
+      characterIllustration: {fileID: 21300000, guid: ece3b2267d2c22243b59d81d902acbb4, type: 3}
+      characterExplain: "\uB9C8\uB9B4\uB9B0 \uACC1\uC5D0\uC11C \uB5A0\uB098\uC9C0
+        \uC54A\uB294 \uACFC\uBB35\uD55C \uB0A8\uC790\uC774\uB2E4.\n\uC544\uB9C8\uB3C4
+        \uB9C8\uB9B4\uB9B0\uC758 \uD638\uC704\uC778\uB4EF \uD558\uB2E4."
+      characterAge: 0
+      characterBirthMonth: 0
+      characterBirthDay: 0
+      characterHeight: 0
+      characterWeight: 0
+    level: 2
+    maxEXP: 0
+    EXP: 0
+    maxHP: 290
+    HP: 290
+    maxMP: 45
+    MP: 45
+    maxSympathy: 100
+    Sympathy: 0
+    ATK: 21
+    MAK: 2
+    DEF: 28
+    MDF: 11
+    move: 4
+    range: 3
+    attackSkillNum: 0
+    firstCharacterSkillNum: 040000000500000006000000190000001c0000001d0000001b000000
+    characterSkill: 000000000101010000000000000000000000000000000000000100010101010000000000000000000000
+    HPValue: 0
+    MPValue: 0
+    ATKValue: 0
+    MAKValue: 0
+    DEFValue: 0
+    MDFValue: 0
+    maxHPEXP: 0
+    maxMPEXP: 0
+    ATKEXP: 0
+    MAKEXP: 0
+    DEFEXP: 0
+    MDFEXP: 0
+    increaseMaxHPByTrain: 0
+    increaseMaxMPByTrain: 0
+    increaseATKByTrain: 0
+    increaseMAKByTrain: 0
+    increaseDEFByTrain: 0
+    increaseMDFByTrain: 0
+    trainStatus: 0

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af46cdf6fcd2809409e4e18507f80f55, type: 3}
+  m_Name: 39_SlowStarter
+  m_EditorClassIdentifier: 
+  skillName: Slow Starter
+  ingameSkillName: "\uC2AC\uB85C\uC6B0 \uC2A4\uD0C0\uD130"
+  skillSprite: {fileID: 21300000, guid: bef32c784cca78a4b92888fd29f44cb6, type: 3}
+  skillExplain: "\uACF5\uACA9\uC5D0 \uC131\uACF5\uD55C \uD6C4 \uC774\uBC88 \uACBD\uAE30\uB3D9\uC548
+    \uC601\uAD6C\uC801\uC73C\uB85C \uC790\uC2E0\uC758 \uACF5\uACA9\uB825\uC774 \uC0C1\uC2B9\uD55C\uB2E4."
+  skillTarget: 0
+  skillType: 5
+  damageType: 0
+  skillSympathyType: 3
+  skillUserEffect: 29
+  skillTargetEffect: 21
+  ignoreIsHaveBall: 0
+  ignoreOtherCharacter: 0
+  ignoreBound: 0
+  useHP: 0
+  useMP: 20
+  useSympathy: 20
+  skillUserStatusEffect: []
+  targetStatusEffect: []
+  targetDispelStatusEffect: []
+  DPHMaxHP: 0
+  DPHHP: 0
+  DPHMaxMP: 0
+  DPHMP: 0
+  DPHATK: 2.5
+  DPHMAK: 0
+  DPHDEF: 0
+  DPHMDF: 0
+  enemyMaxHP: 0
+  enemyHP: 0
+  enemyMaxMP: 0
+  enemyMP: 0
+  enemyATK: 0
+  enemyMAK: 0
+  enemyDEF: 0
+  enemyMDF: 1
+  variance: 0.2
+  fixedValue: 0
+  enemySympathyDamage: 0
+  specialCount: 0.05

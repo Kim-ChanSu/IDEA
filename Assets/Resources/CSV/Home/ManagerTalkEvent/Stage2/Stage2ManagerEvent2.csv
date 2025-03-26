@@ -1,0 +1,6 @@
+Branch,Talker,Event,Content,Key,Part
+0,Manager,AddTalker,1,,
+0,Manager,,상대하고 능력치 차이가 압도적으로 차이나는게 아니라면,,
+0,Manager,,전술 전략으로 극복해 낼 수 있어,,
+0,Manager,,그러니 상대 선수들하고 능력치 차이가 난다고 해서 너무 기죽지는 마,,
+0,Manager,RemoveTalker,1,,
