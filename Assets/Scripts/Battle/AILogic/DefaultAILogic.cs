@@ -695,7 +695,7 @@ public class DefaultAILogic : AILogic
                 MapBlock checkMapBlock = CheckBallOnCharacterMoveRange(targetCharacter);
                 if (checkMapBlock != null)
                 {
-                    targetCharacter.aiTargetMapBlock == null;
+                    targetCharacter.GetComponent<Character>().aiTargetMapBlock = null;
                     Debug.LogWarning("목표를 초기화 후 공으로 이동!");
                     AICharacterMove(targetCharacter, checkMapBlock);
                     return;
@@ -703,7 +703,7 @@ public class DefaultAILogic : AILogic
             }
             #endregion
 
-            //목표가 거점이 아닐 때 이번 턴 아군 소유가 아닌 거점으로 한 방에 갈 수 있는 경우 거점으로 이동
+            //목표가 거점이 아닐 때 이번 턴 AI가 소유하지 않은 거점으로 한 방에 갈 수 있는 경우 거점으로 이동
             #region
             if (targetCharacter.GetComponent<Character>().aiTargetMapBlock.tileType != TileType.StrategicPoint)
             {
@@ -721,14 +721,14 @@ public class DefaultAILogic : AILogic
 
                         if (TargetSPCount < 1)
                         {
-                            targetCharacter.aiTargetMapBlock == null;
+                            targetCharacter.GetComponent<Character>().aiTargetMapBlock = null;
                             Debug.LogWarning("목표를 초기화 후 거점으로 이동!");
                             AICharacterMove(targetCharacter, checkMapBlock);
                             return;
                         }
                     }
                 }
-            }           
+            }        
             #endregion
 
             //목표로 한 방에 못가는 경우 목표를 향해 이동
@@ -737,11 +737,11 @@ public class DefaultAILogic : AILogic
             {
                 Debug.Log("목표를 향하여 이동!");
                 return;
-            }      
+            }  
             #endregion
         }
 
-        //여기부터가 목표가 없거나 목표로 가지 못하는 경우, 지금은 랜덤 + (1턴만에 무언가 할 수 있는 캐릭터가 없는경우)
+        //여기부터가 목표가 없거나 목표로 가지 못하는 경우   
         targetCharacter.GetComponent<Character>().aiTargetMapBlock = null; //목표로 못가거나 목표가 없는 경우니 목표 초기화
         MapBlock targetMapBlock = null;
 
