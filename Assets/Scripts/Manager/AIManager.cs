@@ -67,7 +67,10 @@ public class AIManager : MonoBehaviour
         SetActionAbleEnemyCharacter(); //행동 가능한 캐릭터가 있는지 검사
         CheckAITargetMapBlockOnSomeOne(); // 캐릭터 목표 타일 위에 누군가 있나 검사
         CheckBallOnField(); //필드위에 공이 있나 검사
-        SelectAICharacter(); //캐릭터 선택
+        if (SelectAICharacter() == false) //캐릭터 선택
+        {
+            return;
+        }
         battleManager.battlePhaseManager.ChangePhase(BattlePhase.Stay);
         Invoke("AICharacterSelectEnd", 0.5f);       
         #endregion
@@ -144,16 +147,18 @@ public class AIManager : MonoBehaviour
         #endregion
     }
 
-    private void SelectAICharacter()
+    private bool SelectAICharacter()
     {
         #region
         if (ActionAbleEnemyCharacter.Count <= 0)
         {
             Debug.LogError("행동가능한 AI캐릭터가 없습니다!");
             battleManager.battlePhaseManager.ChangePhase(BattlePhase.EnemyTurn_Result);
+            return false;
         }
 
         aiLogic.SetAICharacter();
+        return true;
         #endregion
     }
 
