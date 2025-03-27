@@ -690,23 +690,25 @@ public class DefaultAILogic : AILogic
 
             //목표가 거점이 아닐 때 이번 턴 공으로 한 방에 갈 수 있고 공이 없는 경우 경우 공으로 이동
             #region
-            if (targetCharacter.GetComponent<Character>().aiTargetMapBlock.tileType != TileType.StrategicPoint)
+            if ((targetCharacter.GetComponent<Character>().aiTargetMapBlock.tileType != TileType.StrategicPoint) && (targetCharacter.GetComponent<Character>().GetIsHaveBall() == false))
             {
-                MapBlock checkMapBlock = CheckStrategicPointOnCharacterMoveRange(targetCharacter);
+                MapBlock checkMapBlock = CheckBallOnCharacterMoveRange(targetCharacter);
                 if (checkMapBlock != null)
                 {
+                    targetCharacter.aiTargetMapBlock == null;
+                    Debug.LogWarning("목표를 초기화 후 공으로 이동!");
                     AICharacterMove(targetCharacter, checkMapBlock);
                     return;
                 }
             }
             #endregion
 
-            //목표가 거점이 아닐 때 이번 턴 거점으로 한 방에 갈 수 있는 경우 거점으로 이동
+            //목표가 거점이 아닐 때 이번 턴 아군 소유가 아닌 거점으로 한 방에 갈 수 있는 경우 거점으로 이동
             #region
             if (targetCharacter.GetComponent<Character>().aiTargetMapBlock.tileType != TileType.StrategicPoint)
             {
-                MapBlock checkMapBlock = CheckBallOnCharacterMoveRange(targetCharacter);
-                if (checkMapBlock != null)
+                MapBlock checkMapBlock = CheckStrategicPointOnCharacterMoveRange(targetCharacter);
+                if ((checkMapBlock != null) && (checkMapBlock.tileOwner != TileOwner.Enemy))
                 {
                     for (int i = 0; i < aiManager.ActionAbleEnemyCharacter.Count; i++)
                     {
@@ -719,6 +721,8 @@ public class DefaultAILogic : AILogic
 
                         if (TargetSPCount < 1)
                         {
+                            targetCharacter.aiTargetMapBlock == null;
+                            Debug.LogWarning("목표를 초기화 후 거점으로 이동!");
                             AICharacterMove(targetCharacter, checkMapBlock);
                             return;
                         }
