@@ -173,7 +173,7 @@ public class DefaultAILogic : AILogic
         #endregion
         //공이 없을 때 아군 캐릭터는 여기 안 넣는 이유 여기는 캐릭터 뽑는 코드라 그럼 아군 아군 이동은 캐릭터 선택 과정에서 큰 의미 없음
 
-        SetSelectAICharacter(aiManager.ActionAbleEnemyCharacter[Random.Range(0, aiManager.ActionAbleEnemyCharacter.Count)]); //ai캐릭터 뽑는 과정 지금은 랜덤이지만 과정 추가 해야함;
+        SetSelectAICharacter(aiManager.ActionAbleEnemyCharacter[Random.Range(0, aiManager.ActionAbleEnemyCharacter.Count)]); //랜덤
     }
 
     private void SetSelectAICharacter(GameObject targetCharacter)
